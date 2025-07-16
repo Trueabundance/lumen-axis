@@ -3,47 +3,63 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>LumenAxis™ – AI-Driven Data Audits</title>
-  <meta name="description" content="LumenAxis™ uncovers who profits from your data, purchases, and beliefs. A privacy-first AI tool designed for transparency and accountability.">
+  <title>LumenAxis – Dual App Suite</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="bg-gray-900 text-white font-sans">
-  <main class="min-h-screen flex flex-col justify-center items-center px-6 text-center">
-    <div class="max-w-2xl">
-      <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-        LumenAxis™
-      </h1>
-      <p class="text-lg md:text-xl mb-8 text-gray-300">
-        Who really profits from your clicks, purchases, and beliefs?
-      </p>
-      <p class="text-md md:text-lg mb-10 text-gray-400">
-        LumenAxis™ is a stealth AI-powered tool that reveals the financial, ethical, and political influence behind everything you interact with.
-      </p>
+<body class="bg-gray-900 text-white">
 
-      <a href="#notify" class="bg-white text-black font-semibold py-3 px-6 rounded-xl shadow-lg hover:bg-gray-200 transition">
-        Get Early Access
-      </a>
-
-      <p class="mt-6 text-sm text-gray-500">
-        Fully automated. Anonymous. Unapologetic.
-      </p>
+  <!-- Hero Section -->
+  <section class="text-center py-20 px-4">
+    <h1 class="text-4xl md:text-5xl font-bold mb-4">Track What You Consume, Visually</h1>
+    <p class="text-lg text-gray-300 mb-8">LumenAxis offers two powerful tools to visualize the effects of what you consume — in real-time.</p>
+    <div class="flex justify-center space-x-4">
+      <a href="#lumendose" class="bg-blue-500 hover:bg-blue-600 py-2 px-6 rounded-lg text-white font-semibold">Explore LumenDose 🧠</a>
+      <a href="#lumenfuel" class="bg-yellow-500 hover:bg-yellow-600 py-2 px-6 rounded-lg text-white font-semibold">Explore LumenFuel ⚡</a>
     </div>
-  </main>
-
-  <section id="notify" class="bg-gray-800 py-12 px-6 text-center">
-    <h2 class="text-2xl font-semibold mb-4">Join the Waitlist</h2>
-    <form name="waitlist" method="POST" data-netlify="true">
-      <input type="email" name="email" required placeholder="you@example.com" class="p-3 rounded-l-md border-none focus:outline-none w-64 text-black">
-      <button type="submit" class="bg-green-500 hover:bg-green-400 text-white p-3 rounded-r-md font-medium transition">
-        Notify Me
-      </button>
-    </form>
   </section>
 
-  <footer class="bg-gray-900 text-sm text-gray-500 text-center py-6">
-    <a href="/privacy.html" class="hover:underline mx-2">Privacy</a> •
-    <a href="/terms.html" class="hover:underline mx-2">Terms</a> •
-    &copy; 2025 LumenAxis™. All rights reserved.
+  <!-- App Showcase Section -->
+  <section class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 px-4 py-12">
+    <!-- LumenDose -->
+    <div id="lumendose" class="bg-gray-800 p-6 rounded-lg border border-gray-700 flex flex-col">
+      <div class="flex items-center mb-4">
+        <span class="text-3xl">🧠</span>
+        <h2 class="text-3xl font-bold text-blue-400 ml-3">LumenDose</h2>
+      </div>
+      <img src="/mnt/data/Screenshot 2025-07-16 at 14.10.53.png" alt="LumenDose Screenshot" class="rounded-lg mb-4">
+      <p class="text-gray-300 flex-grow">Visualize alcohol’s real-time effects on multiple brain regions. Understand the science behind every sip and see how your brain responds.</p>
+      <a href="#" class="mt-6 bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded text-center">Launch LumenDose</a>
+    </div>
+
+    <!-- LumenFuel -->
+    <div id="lumenfuel" class="bg-gray-800 p-6 rounded-lg border border-gray-700 flex flex-col">
+      <div class="flex items-center mb-4">
+        <span class="text-3xl">⚡</span>
+        <h2 class="text-3xl font-bold text-yellow-400 ml-3">LumenFuel</h2>
+      </div>
+      <img src="/mnt/data/Screenshot 2025-07-16 at 14.11.56.png" alt="LumenFuel Screenshot" class="rounded-lg mb-4">
+      <p class="text-gray-300 flex-grow">See how sugar impacts your liver, pancreas, and energy. Stay mindful with real-time feedback on the foods you consume.</p>
+      <a href="#" class="mt-6 bg-yellow-500 hover:bg-yellow-600 text-white py-2 px-4 rounded text-center">Launch LumenFuel</a>
+    </div>
+  </section>
+
+  <!-- Notify Section -->
+  <section id="notify" class="bg-gray-800 py-16 px-4">
+    <div class="max-w-2xl mx-auto text-center">
+      <h3 class="text-2xl font-bold mb-4">Get Early Access & Updates</h3>
+      <p class="text-gray-400 mb-6">Join our mailing list to get exclusive invites and feature updates for both LumenDose and LumenFuel.</p>
+      <form class="flex flex-col sm:flex-row justify-center gap-4">
+        <input type="email" placeholder="Enter your email" class="px-4 py-2 rounded-lg text-black w-full sm:w-auto">
+        <button class="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-lg">Notify Me</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-gray-500 py-6 text-sm">
+    © 2025 LumenAxis. All rights reserved.
   </footer>
+
 </body>
 </html>
+
